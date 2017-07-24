@@ -1,0 +1,64 @@
+:root {
+    --darkest: #222;
+    --shade0: #555;
+    --shade1: #999;
+    --shade2: #aaa;
+    --shade3: #bbb;
+    --shade4: #f1f1f1;
+    --lightest: #f8f8f8;
+    --accent1: #00b386;
+    --accent2: #ff6666;
+}
+
+.preload h1 {
+    -webkit-transition: none;
+    transition: none;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    max-width: 1200px;
+    min-width: 320px;
+    margin: 0 auto 20px auto;
+    background-color: var(--shade4);
+}
+
+.little {
+    vertical-align: 8%;
+    font-size: 60%;
+    margin: 0 8px 0 8px;
+}
+
+h1,
+h2 {
+    font-family: "Amatica SC", serif;
+    font-weight: bold;
+    color: var(--darkest);
+}
+
+h1 {
+    font-size: 7em;
+    margin: 0;
+}
+
+h1:hover {
+    color: var(--accent1);
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+h2:hover {
+    color: var(--accent2);
+}
+
+a {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 654px) and (min-width: 528px) {
+}
+
+@media only screen and (max-width: 527px) {
+}

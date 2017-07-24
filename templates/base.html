@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang=en>
+    <head>
+        <link type="text/css" rel="stylesheet" href="/static/style.css" />
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+        <title>Gindele Baby & Dogs{% block title%}{% endblock %}</title>
+        <link href="https://fonts.googleapis.com/css?family=Amatica+SC|Open+Sans" rel="stylesheet">
+        <script>document.onload = function(){el = document.getElementsByClassName("preload"); el.classList.remove("preload");}</script>
+    </head>
+    <body>
+        <a href="/" id="a-header">
+        <header>
+            <h1 class="preload Title">Gindele Baby<span class="little">&</span>Dog</h1>
+        </header>
+        </a>
+    {% block content %}
+    {% endblock %}
+    </body>
+</html>
